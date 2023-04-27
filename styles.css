@@ -9,6 +9,21 @@ body {
     background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(10,10,9,1) 90%);
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.drum-machine {
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .tap {
     border-radius: 5px;
     margin: 1em;
@@ -26,16 +41,16 @@ body {
     background: radial-gradient(circle, rgba(255,175,126,1) 1%, rgba(255,72,0,1) 90%);
 }
 .tap3 {
-    background: rgb(191,255,254);
-    background: radial-gradient(circle, rgba(191,255,254,1) 1%, rgba(0,255,222,1) 90%);
+    background: rgb(255,143,192);
+    background: radial-gradient(circle, rgba(255,143,192,1) 1%, rgba(184,0,69,1) 90%);
 }
 .tap4 {
     background: rgb(191,201,255);
     background: radial-gradient(circle, rgba(191,201,255,1) 1%, rgba(0,99,184,1) 90%);
 }
 .tap5 {
-    background: rgb(255,143,192);
-    background: radial-gradient(circle, rgba(255,143,192,1) 1%, rgba(184,0,69,1) 90%);
+    background: rgb(254,240,255);
+    background: radial-gradient(circle, rgba(254,240,255,1) 1%, rgba(128,128,128,1) 90%);
 }
 .tap6 {
     background: rgb(247,157,255);
@@ -50,6 +65,6 @@ body {
     background: radial-gradient(circle, rgba(255,83,83,1) 1%, rgba(196,0,0,1) 90%);
 }
 .tap9 {
-    background: rgb(254,240,255);
-    background: radial-gradient(circle, rgba(254,240,255,1) 1%, rgba(128,128,128,1) 90%);
+    background: rgb(191,255,254);
+    background: radial-gradient(circle, rgba(191,255,254,1) 1%, rgba(0,255,222,1) 90%);
 }
