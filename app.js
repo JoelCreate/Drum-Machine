@@ -8,9 +8,18 @@ const green = document.getElementById("tap7")
 const red = document.getElementById("tap8")
 const teal = document.getElementById("tap9")
 
+const button = document.querySelectorAll('.tap')
+button.forEach(djHit => djHit.addEventListener('transitionend', removeTransition))
+
+function removeTransition(e){
+    if(e.propertyName !== 'transform') return
+    this.classList.remove('playing')
+}
+
 yellow.addEventListener("touchstart", function (){
-    const djHit = new Audio("sounds/djHit.wav")
+    const djHit = new Audio("sounds/djHit.wav")  
     djHit.play()
+    yellow.classList.add("playing")
 })
 
 orange.addEventListener("touchstart", function (){
@@ -34,8 +43,8 @@ grey.addEventListener("touchstart", function (){
 })
 
 purple.addEventListener("touchstart", function (){
-    const hiTom = new Audio("sounds/hiTom.wav")
-    hiTom.play()
+    const highTom = new Audio("sounds/highTom.wav")
+    highTom.play()
 })
 
 green.addEventListener("touchstart", function (){
