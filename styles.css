@@ -9,8 +9,7 @@
 
 body {
     background-color: #0a0a09;
-    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
-    /*background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(10,10,9,1) 90%);*/
+    background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(10,10,9,1) 90%);
     font-family: 'Darumadrop One', cursive;
     color: white;
 }
@@ -37,6 +36,8 @@ h2{
     display: grid;
     gap: .05em;
     grid-template-columns: repeat(3, 1fr);
+    background: #000;
+    border-radius: 10px;
 }
 
 .tap {
