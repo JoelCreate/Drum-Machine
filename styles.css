@@ -19,7 +19,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     width: 100vw;    
-    touch-action: manipulation;
+    touch-action: none;
 }
 
 span {
@@ -40,7 +40,7 @@ span {
     display: grid;
     gap: .05em; 
     grid-template-columns: repeat(3, 1fr);
-    touch-action: manipulation;
+   
 }
 
 .tap {
