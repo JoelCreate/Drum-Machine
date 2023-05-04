@@ -43,8 +43,8 @@ span {
     border-radius: 5px;
     margin: 1em;
     transition: all 0.07s;
-    width: 6.25em;
-    height: 6.25em;
+    width: 20vw;
+    height: 20vw;
 }
 
 .playing {
