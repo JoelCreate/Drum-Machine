@@ -1,4 +1,4 @@
-function playSound() {
+function playSound(e) {
     const audio = document.querySelector(`audio[data-drum="${e.target.dataset.drum}"]`)
     const tap = document.querySelector(`.tap[data-drum="${e.target.dataset.drum}"]`)
     if (!audio) return // stop fuction all together
