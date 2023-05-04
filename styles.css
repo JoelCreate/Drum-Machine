@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 body {
     background-color: #0a0a09;
     background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(10,10,9,1) 90%);
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Vina Sans', cursive;
     color: white;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,14 @@ body {
 }
 
 span {
-    display: inline-block;
-    width: 100%;
+    margin-left: 18px;
     font-size: 2em;
 }
 
 .container {
-    background: #000;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
+    box-shadow: inset 0.2em 0.2em 0.75em 0 rgba(255,255,255,0.45), inset -0.2em -0.2em 0.75em 0 rgba(0,0,0,0.45), 2px 2px 7px rgba(0,0,0,0.75);
     border-radius: 10px;
     padding: 15px;
     max-width: 90vw;
@@ -44,7 +45,9 @@ span {
     margin: 1em;
     transition: all 0.07s;
     width: 20vw;
-    height: 20vw;
+    height: 20vw;    
+    box-shadow: inset 0.2em 0.2em 0.75em 0 rgba(255,255,255,0.45), inset -0.2em -0.2em 0.75em 0 rgba(0,0,0,0.45), 2px 2px 7px rgba(0,0,0,0.75);
+    border: solid 1px rgba(255,255,255,0.25);
 }
 
 .playing {
