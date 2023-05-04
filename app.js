@@ -13,7 +13,7 @@ function removeTransition(e){
 }
 
 const taps = document.querySelectorAll('.tap')
-taps.forEach(tap => tap.addEventListener('trasitionend', removeTransition))
+taps.forEach(tap => tap.addEventListener('transitionend', removeTransition))
 
 window.addEventListener("touchstart", playSound)
 
