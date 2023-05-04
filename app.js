@@ -13,5 +13,5 @@ function removeTransition(e){
 }
 
 const taps = document.querySelectorAll('.tap')
-taps.forEach(tap => tap.addEventListener('transitionend', removeTransition))
+taps.forEach(tap => tap.addEventListener('touchend', removeTransition))
 

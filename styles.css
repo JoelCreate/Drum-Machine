@@ -38,7 +38,7 @@ span {
 
 .drum-machine {
     display: grid;
-    gap: .05em;
+    gap: .05em; 
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -50,7 +50,7 @@ span {
     height: 20vw;    
     box-shadow: inset 0.2em 0.2em 0.75em 0 rgba(255,255,255,0.45), inset -0.2em -0.2em 0.75em 0 rgba(0,0,0,0.45), 2px 2px 7px rgba(0,0,0,0.75);
     border: solid 1px rgba(255,255,255,0.25);
-    touch-action: none;
+    touch-action: manipulation;
 }
 
 .playing {
