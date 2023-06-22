@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@
 body {
     background-color: #0a0a09;
     background: radial-gradient(circle, rgba(88,88,88,1) 1%, rgba(10,10,9,1) 90%);
-    font-family: 'Vina Sans', cursive;
+    font-family: 'Varela Round', sans-serif;
     color: white;
     display: flex;
     flex-direction: column;
@@ -38,8 +38,7 @@ span {
 .drum-machine {
     display: grid;
     gap: .05em; 
-    grid-template-columns: repeat(3, 1fr);
-   
+    grid-template-columns: repeat(3, 1fr);   
 }
 
 .tap {
